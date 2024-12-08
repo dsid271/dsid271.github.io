@@ -1,9 +1,12 @@
 {
+  "homepage":"https://dsid271.github.io/dsid271.github.io",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run dev",
+    "deploy":"gh-pages -d dev",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
